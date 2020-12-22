@@ -53,6 +53,8 @@ body {
     padding: 2rem;
     border-radius: 0px;
     background: white;
+    height: 75%;
+    width: 80%;
   }
   
   .container {

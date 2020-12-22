@@ -1,16 +1,17 @@
 import React from 'react';
+import SearchForm from '../components/SearchForm';
+import Container from "../components/Container";
+import SearchResults from "../components/SearchResults";
 
 const About = () => {
   return (
-    <div
-      style={{
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        height: '90vh'
-      }}
-    >
-      <h1>Discover</h1>
+    <div>
+      <Container style={{ minHeight: "100vh" }}>
+        <h1 className="text-center">Search For Anything Anime</h1>
+        <SearchForm
+        />
+        <SearchResults />
+      </Container>
     </div>
   );
 };
