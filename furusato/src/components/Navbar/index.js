@@ -7,13 +7,15 @@ import {
   NavBtn,
   NavBtnLink
 } from './NavbarElements';
+import Meg from "../../images/megy.gif";
+import "../Navbar/style.css"
 
 const Navbar = () => {
   return (
     <>
       <Nav>
         <NavLink to='/'>
-          <img src={require('../../images/megy.gif')} alt='Home' />
+          <img className="Megy" src={Meg} alt='Furusato' />
         </NavLink>
         <Bars />
         <NavMenu>
