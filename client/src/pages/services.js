@@ -1,5 +1,5 @@
 import React, { useReducer } from 'react';
-import "../pages/services.css";
+import "./services.css";
 
 function Count() {
   const manga = [

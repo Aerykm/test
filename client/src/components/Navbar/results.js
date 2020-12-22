@@ -51,12 +51,15 @@ class Results extends Component {
   render() {
     return (
       <div className="results-wrapper">
+        <span className="label">Chainsaw Man: {this.votesOneInPercent().toFixed(2) + '%'}</span>
         <div className="progress">
           <div className="progress-bar thor-color" style={this.votesOneInPercentStyle()}></div>
         </div>
+        <span className="label">Kaiju no.8: {this.votesTwoInPercent().toFixed(2) + '%'}</span>
         <div className="progress">
           <div className="progress-bar cap-color" style={this.votesTwoInPercentStyle()}></div>
         </div>
+        <span className="label">One Punch Man(Monster Association Arc): {this.votesThreeInPercent().toFixed(2) + '%'}</span>
         <div className="progress">
           <div className="progress-bar panther-color" style={this.votesThreeInPercentStyle()}></div>
         </div>

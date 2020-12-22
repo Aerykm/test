@@ -8,7 +8,7 @@ import {
   NavBtnLink
 } from './NavbarElements';
 import Meg from "../../images/megy.gif";
-import "../Navbar/style.css"
+import "./style.css"
 
 const Navbar = () => {
   return (
